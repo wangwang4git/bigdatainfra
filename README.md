@@ -1,5 +1,13 @@
+- [bigdatainfra](#bigdatainfra)
+	- [数据收集层](#数据收集层)
+	- [数据存储层](#数据存储层)
+	- [资源管理与服务协调层](#资源管理与服务协调层)
+	- [计算引擎层](#计算引擎层)
+	- [数据分析层](#数据分析层)
+	- [数据可视化层](#数据可视化层)
 
-[TOC]
+[TOC] from https://magnetikonline.github.io/markdown-toc-generate/ .  
+f**k github.  
 
 # bigdatainfra
 
