@@ -3,14 +3,17 @@
 		- [1. Sqoop（SQL on Hadoop）](#1-sqoopsql-on-hadoop)
 		- [2. Canal（阿里）Databus（LinkedIn）](#2-canal阿里databuslinkedin)
 		- [3. Otter](#3-otter)
-		- [非关系型数据的收集](#非关系型数据的收集)
+	- [非关系型数据的收集](#非关系型数据的收集)
 		- [1. Flume](#1-flume)
 		- [2. Fluentd](#2-fluentd)
 		- [3. Logstash](#3-logstash)
 		- [4. Filebeat/Beats](#4-filebeatbeats)
 		- [5. Chukwa、Scribe废弃](#5-chukwascribe废弃)
 		- [6. Splunk Forwarder商用](#6-splunk-forwarder商用)
-		- [补充ELK推荐架构：](#补充elk推荐架构)
+		- [补充ELKB推荐架构：](#补充elkb推荐架构)
+	- [分布式消息队列](#分布式消息队列)
+		- [1. Kafka](#1-kafka)
+		- [2. Pulsar](#2-pulsar)
 	- [参考](#参考)
 
 [TOC] from https://magnetikonline.github.io/markdown-toc-generate/ .  
@@ -39,7 +42,7 @@ Canal基本原理与架构
 基本架构  
 ![Otter基本架构](../img/img05.png)  
 
-#### 非关系型数据的收集
+### 非关系型数据的收集
 
 日志收集挑战：  
 > 数据源种类繁多  
@@ -88,8 +91,14 @@ Filebeat架构：
 
 大多平台都抽象出了输入，输出和中间的缓冲的架构。利用分布式的网络连接，大多数平台都能实现一定程度的扩展性和高可靠性。  
 
-#### 补充ELK推荐架构：  
-![ELK推荐架构](../img/img14.jpg)  
+#### 补充ELKB推荐架构：  
+![ELKB推荐架构](../img/img14.jpg)  
+
+### 分布式消息队列
+
+#### 1. Kafka
+
+#### 2. Pulsar
 
 ### 参考
 1. [你一定需要了解的六款大数据采集平台](https://cloud.tencent.com/developer/article/1142484)
