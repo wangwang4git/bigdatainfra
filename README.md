@@ -55,3 +55,13 @@ f**k github.
 ### 数据分析层
 
 ### 数据可视化层
+
+### 外围
+
+#### 作业流调度层
+> Azkaban
+
+#### 数据权限管理层
+> Ranger
+> Kerberos
+> LDAP
