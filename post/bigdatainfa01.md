@@ -85,9 +85,12 @@ Beats架构：
 Filebeat架构：  
 ![Filebeat架构](../img/img13.png)  
 
-#### 5. Chukwa、Scribe废弃  
+#### 6. Loki
+参考： Grafana日志聚合工具Loki https://www.yfshare.vip/2019/01/20/Grafana%E6%97%A5%E5%BF%97%E8%81%9A%E5%90%88%E5%B7%A5%E5%85%B7Loki/  
 
-#### 6. Splunk Forwarder商用
+#### 7. Chukwa、Scribe废弃  
+
+#### 8. Splunk Forwarder商用
 
 大多平台都抽象出了输入，输出和中间的缓冲的架构。利用分布式的网络连接，大多数平台都能实现一定程度的扩展性和高可靠性。  
 
